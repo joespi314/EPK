@@ -9,19 +9,80 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #111827; color: #f3f4f6; }
-        h1, h2 { font-weight: 800; letter-spacing: -0.025em; }
-        h2 { font-size: 1.875rem; line-height: 2.25rem; margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid #374151; }
-        blockquote { border-left: 4px solid #4f46e5; padding-left: 1rem; margin: 1.5rem 0; font-style: italic; color: #d1d5db; }
-        blockquote footer { margin-top: 0.5rem; font-style: normal; font-weight: 600; color: #f3f4f6; }
-        .stat-card { background-color: #1f2937; padding: 1.5rem; border-radius: 0.75rem; text-align: center; border: 1px solid #374151; }
-        .stat-number { font-size: 2.25rem; font-weight: 800; color: #ffffff; }
-        .stat-label { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.05em; color: #9ca3af; }
-        .section-space { margin-top: 3.5rem; margin-bottom: 3.5rem; }
-        .download-link { display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background-color: #4f46e5; color: #ffffff; font-weight: 600; text-decoration: none; border-radius: 0.5rem; transition: background-color 0.2s; font-size: 1.1rem; }
-        .download-link:hover { background-color: #4338ca; }
-        .quote-source { font-weight: 600; color: #4f46e5; text-decoration: underline; transition: color 0.2s; }
-        .quote-source:hover { color: #6366f1; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* bg-gray-900 */
+            color: #f3f4f6; /* text-gray-100 */
+        }
+        h1, h2 {
+            font-weight: 800;
+            letter-spacing: -0.025em;
+        }
+        h2 {
+            font-size: 1.875rem; /* 3xl */
+            line-height: 2.25rem;
+            margin-bottom: 1.5rem; /* mb-6 */
+            padding-bottom: 0.75rem; /* pb-3 */
+            border-bottom: 1px solid #374151; /* border-gray-700 */
+        }
+        blockquote {
+            border-left: 4px solid #4f46e5; /* border-indigo-600 */
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #d1d5db; /* text-gray-300 */
+        }
+        blockquote footer {
+            margin-top: 0.5rem;
+            font-style: normal;
+            font-weight: 600;
+            color: #f3f4f6; /* text-gray-100 */
+        }
+        .stat-card {
+            background-color: #1f2937; /* bg-gray-800 */
+            padding: 1.5rem; /* p-6 */
+            border-radius: 0.75rem; /* rounded-xl */
+            text-align: center;
+            border: 1px solid #374151; /* border-gray-700 */
+        }
+        .stat-number {
+            font-size: 2.25rem; /* text-4xl */
+            font-weight: 800;
+            color: #ffffff;
+        }
+        .stat-label {
+            font-size: 0.875rem; /* text-sm */
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #9ca3af; /* text-gray-400 */
+        }
+        .section-space {
+            margin-top: 3.5rem; /* my-14 */
+            margin-bottom: 3.5rem;
+        }
+        .download-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #4f46e5; /* bg-indigo-600 */
+            color: #ffffff;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 0.5rem; /* rounded-lg */
+            transition: background-color 0.2s;
+        }
+        .download-link:hover {
+            background-color: #4338ca; /* bg-indigo-700 */
+        }
+        .quote-source {
+            font-weight: 600;
+            color: #4f46e5; /* text-indigo-600 */
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+        .quote-source:hover {
+            color: #6366f1; /* text-indigo-400 */
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -45,53 +106,48 @@
         <section class="section-space">
             <h2>Artist Bio</h2>
             <div class="text-lg text-gray-300 space-y-4">
-                <p>Joseph Schwartz is a Chicago-based artist and songwriter pioneering a new path in music creation. Anchored by the heavy melodic rock sound of his breakout release <strong>"Ready for Doom,"</strong> Joseph leverages AI as a collaborative tool—acting as lyricist, producer, and musical interpreter.</p>
-                <p>He pairs powerful lyrics—<strong>both his own and those of collaborators like Herman Bean</strong>—with AI-generated instrumentation to craft music that is forward-thinking and deeply personal. While his current audience has rallied around his rock anthems, Joseph's vision fearlessly spans genres. From the political edge of rock to the storytelling of country and folk, his work is unified not by a single sound, but by a core focus on <strong>lyrics that provoke thought, spark conversation, and explore the human condition.</strong></p>
+                <p>Joseph Schwartz is a Chicago-based artist and songwriter pioneering a new path in music creation. He leverages AI as a collaborative tool, acting as a lyricist, producer, and musical interpreter. He pairs powerful lyrics—<strong>both his own and those of collaborators like Herman Bean</strong>—with AI-generated instrumentation and vocals to craft music that is both forward-thinking and deeply personal.</p>
+                <p>His work spans broad conceptual boundaries, from sharp social and political commentary (<strong>"Ready for Doom"</strong>) to philosophical explorations (<strong>"Seven Deadly Sins"</strong>) and collaborative storytelling (<strong>"Songs by Herman Bean"</strong>). Rather than being confined to a single sound, his explorations fearlessly span genres—from rock, country, and folk to pop and dance—all unified by a core focus on <strong>lyrics that provoke thought, spark conversation, and explore the human condition.</strong></p>
             </div>
         </section>
 
         <section class="section-space">
             <h2>Career Highlights & Analytics</h2>
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
                 <div class="stat-card">
                     <div class="stat-number">8,501</div>
-                    <div class="stat-label">Total Listeners (12 Mo)</div>
+                    <div class="stat-label">Total Listeners (Spotify)</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">30,213</div>
-                    <div class="stat-label">Streams (12 Mo)</div>
+                    <div class="stat-label">Streams (Spotify)</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">4,067</div>
-                    <div class="stat-label">Saves (12 Mo)</div>
+                    <div class="stat-label">Saves (Spotify)</div>
                 </div>
                 <div class="stat-card">
+                    <div class="stat-number">2,579</div>
+                    <div class="stat-label">Playlist Adds (Spotify)</div>
+                </div>
+                <div class="stat-card col-span-2 md:col-span-1">
                     <div class="stat-number">330</div>
-                    <div class="stat-label">Shazams (Past 4 Wks)</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">39</div>
-                    <div class="stat-label">Radio Spins (Past 4 Wks)</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">4.95</div>
-                    <div class="stat-label">Streams / Listener</div>
+                    <div class="stat-label">Shazams (Past Month)</div>
                 </div>
             </div>
             <ul class="list-disc list-inside text-lg text-gray-300 space-y-2 mt-6">
-                <li><strong>Viral Engagement:</strong> Listeners are streaming nearly 5 songs per person on average (Last 28 Days), indicating exceptional retention.</li>
-                <li><strong>International Reach:</strong> Growing fanbases in key cities including <strong>Montreal, Stockholm, Kyiv, Varna, and Paris.</strong></li>
-                <li><strong>Chart Success:</strong> The single "Ready for Doom" peaked at #2 on the Euro Indie Music Chart (Week 48).</li>
+                <li><strong>Chart Success:</strong> The single "Ready for Doom" peaked at #2 on the Euro Indie Music Chart (Week 48) and ranked #62 overall for 2025.</li>
+                <li><strong>Strong Engagement:</strong> Achieved <strong>4.95</strong> Streams per Listener on Spotify over the last 28 days.</li>
+                <li><strong>Significant Reach:</strong> Featured in playlists with a combined reach of 1.27 Million listeners.</li>
             </ul>
         </section>
 
         <section class="section-space">
             <h2>Featured Release: "Ready for Doom" EP</h2>
             <div class="stat-card p-6 text-left">
-                <p class="text-lg text-gray-300 mb-6">The "Ready for Doom" EP is a conceptual release featuring one song interpreted in four distinct versions. The title track has amassed over <strong>10,000 streams</strong> all-time.</p>
-                
+                <p class="text-lg text-gray-300 mb-6">The "Ready for Doom" EP is a conceptual release featuring one song interpreted in four distinct versions (Rock, Acoustic, Hard Rock, and Pop). The project is a bold fusion of rock power and sharp political critique.</p>
                 <a href="https://open.spotify.com/album/1Ynx7Tgy8H5U1JKnHIr0yR" class="download-link" target="_blank" rel="noopener noreferrer">
-                    Listen to "Ready for Doom" on Spotify
+                    Listen on Spotify
                 </a>
             </div>
         </section>
@@ -102,13 +158,13 @@
                 <div>
                     <h3 class="text-xl font-semibold mb-3">"Ready for Doom" (Official Music Video)</h3>
                     <div class="aspect-w-16 aspect-h-9">
-                        <iframe class="rounded-lg" width="100%" height="315" src="https://www.youtube.com/embed/tQ0mrKDqljE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="rounded-lg" src="https://www.youtube.com/embed/tQ0mrKDqljE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
                 <div>
                     <h3 class="text-xl font-semibold mb-3">"Searching for a Star (disco version)"</h3>
                     <div class="aspect-w-16 aspect-h-9">
-                        <iframe class="rounded-lg" width="100%" height="315" src="https://www.youtube.com/embed/MMM6jW8Lp-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="rounded-lg" src="https://www.youtube.com/embed/MMM6jW8Lp-o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -118,7 +174,7 @@
             <h2>Press & Acclaim</h2>
             <div class="space-y-6">
                 <blockquote>
-                    <p class="text-xl">"With Ready for Doom, Schwartz proves that <strong>AI-assisted creation can carry soul, depth, and daring purpose</strong>..."</p>
+                    <p class="text-xl">"With Ready for Doom, Schwartz proves that <strong>AI-assisted creation can carry soul, depth, and daring purpose</strong>, a brave new blend of art and algorithm."</p>
                     <footer>
                         — <a href="https://illustratemagazine.com/everyone-dances-outside-of-their-bodies-by-last-relapse-review/" target="_blank" rel="noopener noreferrer" class="quote-source">Illustrate Magazine</a>
                     </footer>
@@ -126,7 +182,25 @@
                 <blockquote>
                     <p class="text-xl">"The songs aren't cold or mechanical; they're pulsing with life and character... <strong>Schwartz elevates the AI-assisted process into something thoroughly personal and expressive</strong>."</p>
                     <footer>
-                        — <a href="https://pressreader.com/article/281779929995730" target="_blank" rel="noopener noreferrer" class="quote-source">TJPL News Magazine</a> (Review of <em>Seven Deadly Sins</em>)
+                        — <a href="https://pressreader.com/article/281779929995730" target="_blank" rel="noopener noreferrer" class="quote-source">TJPL News Magazine</a>
+                    </footer>
+                </blockquote>
+                <blockquote>
+                    <p class="text-xl">"'Ready for Doom' is a provocation, a challenge, and a conversation starter—<strong>exactly what politically charged rock should be</strong>."</p>
+                    <footer>
+                        — <a href="https://www.lostinthemanor.co.uk/blog/litm-rock-picks-featuring-joseph-schwartz-sehore-clay-brown-and-more" target="_blank" rel="noopener noreferrer" class="quote-source">The Musical Road</a>
+                    </footer>
+                </blockquote>
+                 <blockquote>
+                    <p class="text-xl">"Schwartz has created a <strong>choose-your-own-adventure of righteous anger</strong>, where every path leads to the same uncomfortable truth."</p>
+                    <footer>
+                        — <a href="https://musechronicle.com/2025/10/30/the-swedish-solo-act-trueclaw-releases-ai-assisted-single-one-road/" target="_blank" rel="noopener noreferrer" class="quote-source">Muse Chronicle</a>
+                    </footer>
+                </blockquote>
+                <blockquote>
+                    <p class="text-xl">"Compelling storytelling, charismatic performances and stunning musicianship. 'Ready for Doom' is an <strong>EP that will stand the test of time</strong>."</p>
+                    <footer>
+                        — <a href="https://fvmusicblog.com/hot-picks-20-10-25-part-one-the-best-new-releases/" target="_blank" rel="noopener noreferrer" class="quote-source">FV Music Blog</a>
                     </footer>
                 </blockquote>
             </div>
@@ -157,10 +231,9 @@
             <h2>Select Catalog</h2>
             <div class="stat-card p-6 text-left">
                 <h3 class="text-xl font-bold text-white">Album: "Seven Deadly Sins" (Oct 2024)</h3>
-                <p class="text-lg text-gray-300 mt-2">A critically-acclaimed conceptual album where each song embodies one of the seven deadly sins from the perspective of an unapologetic narrator.</p>
-                
-                <a href="https://open.spotify.com/album/1Ynx7Tgy8H5U1JKnHIr0yR" class="download-link" target="_blank" rel="noopener noreferrer">
-                    Listen to "Seven Deadly Sins" on Spotify
+                <p class="text-lg text-gray-300 mt-2">A critically-acclaimed conceptual album where each song embodies one of the seven deadly sins from the perspective of an unapologetic narrator. Tracks from the album like "Sloth," "Lust," and "Greed" have earned thousands of streams.</p>
+                <a href="https://open.spotify.com/album/2V1SPKspHmLfOhSj0WUI7A?si=mFeug_gRTZeeemew0M_WRQ" class="download-link" target="_blank" rel="noopener noreferrer">
+                    Listen on Spotify
                 </a>
             </div>
         </section>
